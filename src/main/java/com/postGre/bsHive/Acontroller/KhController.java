@@ -18,18 +18,5 @@ import com.postGre.bsHive.KhService.KhTableSerive;
 @RequiredArgsConstructor
 public class KhController {
 	
-	private final KhTableSerive khTableSerive;
-	
-	@GetMapping(value = "/")
-	public String main(Model model) {
-		
-		log.info("KhController main() is called");
-		
-		// List<Paper> paperList = khTableSerive.getTestTableList();
-		List<Paper> paperList	= khTableSerive.getPaperTableList();
-		
-		model.addAttribute("paperList", paperList);
-		
-		return "main";
-	}
+
 }

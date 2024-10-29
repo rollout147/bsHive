@@ -12,19 +12,6 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
 public class KhTableSeriveImplement implements KhTableSerive {
-	
-	private final KhTableDao khTableDao;
 
-	@Override
-	public List<Paper> getTestTableList() {
-		List<Paper> paperList = khTableDao.getTestTableList();
-		return paperList;
-	}
-
-	@Override
-	public List<Paper> getPaperTableList() {
-		List<Paper> paperList = khTableDao.getPaperTableList();
-		return paperList;
-	}
 
 }

@@ -6,6 +6,5 @@ import com.postGre.bsHive.Adto.Paper;
 
 public interface KhTableSerive {
 
-	List<Paper> 		getTestTableList();
-	List<Paper>			getPaperTableList();
+
 }

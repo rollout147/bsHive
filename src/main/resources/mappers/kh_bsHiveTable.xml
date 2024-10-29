@@ -3,10 +3,10 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
  <mapper namespace="com.postGre.bsHive.kh_TableMapper">
- 	<select id="getPaperTableList" 		resultType="Paper">
+ 	<!-- <select id="getPaperTableList" 		resultType="Paper">
 		SELECT * 
 		FROM public."Paper"
-	</select>
+	</select> -->
 	
 <!-- 	
 	<select id="getTotPaymentByCon" 		parameterType="PayList"		resultType="int">
